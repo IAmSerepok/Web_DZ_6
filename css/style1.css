@@ -1,0 +1,28 @@
+aside, .wrap{
+    width: 500px;
+}
+.wrap-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.border-red{
+    border: 0.25em red solid;
+}
+.header-border{
+    border: 0.25em green solid;
+    text-align: center;
+}
+.footer-border{
+    border: 0.25em blue solid;
+    text-align: center;
+}
+body{
+    height: 900px;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#end{
+	text-align: center;
+}

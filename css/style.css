@@ -1,0 +1,51 @@
+.cls1{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+#id1{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#id2{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.cls2{
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 150px;
+}
+.cls3{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+#id3{
+    position: fixed;
+    top: 80px;
+    left: 10px;
+}
+header{
+    position: relative;
+    background: center no-repeat url('/img/1.jpg');
+}
+header::after{
+    background-color: aquamarine;
+    z-index: -1;
+}
+dt{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1em 0;
+  }
+  
